@@ -37,14 +37,22 @@ nav > ul {
 nav li {
     display: inline-block;
     list-style: none;
+    padding-right: 10px;
+}
+nav li > a {
     text-decoration: none;
     text-transform: uppercase;
-    padding-right: 10px;
+}
+.grey-text a:hover {
+    color: #00FFFF;
 }
 #tip-of-the-day {
    background-image: url(../img/banner.jpg);
    background-position: center;
    border-radius: 20px;
+}
+#tip-of-the-day:hover {
+    background-size: 50%;
 }
 #tip-text {
     color: #FFFFFF;
@@ -74,6 +82,9 @@ nav li {
     margin-bottom: 20px;
     background-position: center;
     background-repeat: no-repeat;
+}
+.image:hover {
+    background-size: 110%;
 }
 .left {
     background-image: url(../img/img-1.jpg);
