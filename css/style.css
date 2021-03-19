@@ -1,0 +1,101 @@
+/*Common*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.grey-text {
+    color: #878787;
+}
+.layover {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+/*--Common*/
+
+/*Top*/
+#top > img {
+    height: 80px;
+    padding-right: 30px;
+    border-right: 1px solid #E5E5E5;
+}
+nav > ul {
+    margin: 40px 0;
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+#tip-of-the-day {
+   background-image: url(../img/banner.jpg);
+   background-position: center;
+   border-radius: 20px;
+}
+#tip-text {
+    color: #FFFFFF;
+    padding: 30% 40% 5% 5%;
+}
+/*--Top*/
+
+/*Middle*/
+.main-top {
+    margin: 40px 0;
+}
+.main-top > h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.column {
+    width: 25%;
+    float: left;
+}
+.center {
+    width: calc(50% - 40px);
+    float: left;
+    margin: 0 20px;
+}
+.image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.left {
+    background-image: url(../img/img-1.jpg);
+}
+.centerimg {
+    background-image: url(../img/banner-2.jpg);
+}
+.right {
+    background-image: url(../img/img-3.jpg);
+}
+main p {
+    margin-top: 5px;
+}
+/*--Middle*/
+
+/*Bottom*/
+footer {
+    margin: 30px 0 20px 0;
+    text-align: center;
+}
+footer > span {
+    color: red;
+}
+/*--Bottom*/
